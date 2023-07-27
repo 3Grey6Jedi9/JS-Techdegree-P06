@@ -4,12 +4,16 @@
 
     {
       "id":0,
-      "project_name": ,
-      "description": ,
-      "technologies": ,
-      "live_link":,
-      "github_link": ,
-      "image_urls": ,
+      "project_name": 'Random Quote' ,
+      "description": 'This application generates a random quote after certain amount of time' ,
+      "technologies": '["JavaScript", "HTML", "CSS"]' ,
+      "live_link":"http://localhost:63342/JS-Techdegree-P01/index.html?_ijt=dmjubmetumr13rrfke5hvcsgpb&_ij_reload=RELOAD_ON_SAVE",
+      "github_link": "https://github.com/3Grey6Jedi9/JS-Techdegree-P01" ,
+      "image_urls": ["../Images/main01.jpeg",
+      "../Images/projectimage11.jpeg",
+        "../Images/projectimage12.jpeg",
+        "../Images/projectimage13.jpeg"
+      ]
 
 
 
@@ -17,13 +21,14 @@
 
     {
 
-      "id":,
-      "project_name": ,
-      "description": ,
-      "technologies": ,
-      "live_link":,
-      "github_link": ,
-      "image_urls":
+      "id":1,
+      "project_name": 'Students Cards' ,
+      "description": 'This app generates students cards' ,
+      "technologies": '["JavaScript", "HTML", "CSS"]' ,
+      "live_link": "http://localhost:63342/JS-Techdegree-P02/index.html?_ijt=ruvp788fr9p78cj7c7ddarfpni&_ij_reload=RELOAD_ON_SAVE",
+      "github_link": "https://github.com/3Grey6Jedi9/JS-Techdegree-P02" ,
+      "image_urls": ["../Images/main02.jpeg",
+                    "../Images/projectimage21.jpeg"]
     }
 
 
