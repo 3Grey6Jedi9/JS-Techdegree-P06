@@ -62,6 +62,36 @@ app.get('/project/:id', (req, res)=>{
 
 });
 
+
+
+
+// 404 handler for undefined routes
+
+app.use((req, res, next) =>{
+
+    const error = new Error('Page not found'); // A new Error object with the error message
+    error.status = 404; // Set the status code for the error (404 for "Not Found")
+    console.log(`Error: ${error.message} - Status: ${error.status}`); // logging the error message and status
+    next(error); // Passing the error to the next error-handling middleware
+
+});
+
+
+// Global error handler for server errors
+
+app.use((err, req, res, next) => {
+
+    err.status = err.status || 500; // Setting the status code to 500 (Internal Server Error) if not already set
+    err.message = err.message || 'Internal Server Error'; // Setting a default error message if not already set
+    console.log(`Error: ${err.message} - Status: ${err.status}`)
+
+    // Rendering the error page with the error message and status
+    res.status(err.status);
+    res.render('error', {error: err.message});
+
+});
+
+
 // Starting the server
 
 
@@ -72,22 +102,6 @@ app.listen(port, () => {
     console.log(`Server started on port ${port}`);
 
 });
-
-
-
-// 404 handler for undefined routes
-
-app.use((req, res, next) =>{
-
-    const error = new Error('Page not found'); // A new Error object with the error message
-    error.status = 404; // Set the status code for the error (404 for "Not Found")
-    console.log('Error: ${error.message} - Status: ${error.status}'); // logging the error message and status
-    next(error); // Passing the error to the next error-handling middleware
-
-});
-
-
-// Global error handler for server errors
 
 
 
