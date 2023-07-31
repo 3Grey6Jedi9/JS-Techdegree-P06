@@ -63,6 +63,11 @@ a {
   min-height: 100%;
   background: #fefefe;
   overflow-x: hidden; /* Hide horizontal overflow to prevent layout from shifting */
+  margin-left: 0; /* Initial margin is set to 0 */
+}
+
+.wrapper.show-sidebar {
+  margin-left: 300px; /* When the sidebar is shown, create space by adding left margin */
 }
 
 .flex-row-wrap {
