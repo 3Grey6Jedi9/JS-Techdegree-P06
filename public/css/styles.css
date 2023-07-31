@@ -1,6 +1,4 @@
-/*
-  Main styles
-*/
+/* Main styles */
 * {
   box-sizing: border-box;
 }
@@ -57,13 +55,14 @@ a {
 }
 
 .wrapper {
-  width: 100%;
+  width: calc(100% - 300px); /* Adjust the width to fill the remaining space when the sidebar is hidden */
   min-width: 320px;
   height: 100%;
   min-height: 100%;
   background: #fefefe;
   overflow-x: hidden; /* Hide horizontal overflow to prevent layout from shifting */
   margin-left: 0; /* Initial margin is set to 0 */
+  transition: margin-left 0.4s ease-out; /* Add transition for smoother animation */
 }
 
 .wrapper.show-sidebar {
@@ -113,37 +112,6 @@ a {
   cursor: pointer;
 }
 
-/* Show/hide the layout based on wrapper class */
-.wrapper.collapsed .box {
-  display: none;
-}
-
-.wrapper.collapsed #my-info {
-  display: none;
-}
-
-.wrapper.collapsed .header-info-box {
-  display: none;
-}
-
-.wrapper.collapsed .about-intro-box {
-  flex: 0;
-}
-
-.wrapper.collapsed .skills-contact-box {
-  flex: 0;
-}
-
-/* Apply transition effect when showing/hiding the layout */
-.wrapper .box,
-.wrapper #my-info,
-.wrapper .header-info-box,
-.wrapper .about-intro-box,
-.wrapper .skills-contact-box,
-.wrapper.collapsed .content-container {
-  transition: all 0.4s ease-out;
-}
-
 /* Styles for the content sidebar */
 #my-info.sidebar {
   position: fixed;
@@ -152,7 +120,7 @@ a {
   width: 300px;
   height: 100%;
   background-color: #fefefe;
-  z-index: 9998; /* Make sure the sidebar is below the toggle button */
+  z-index: 999; /* Adjusted z-index to ensure the sidebar is below the body content */
   display: none; /* Hide the sidebar by default */
   overflow-y: auto; /* Add vertical scrollbar if the content overflows */
   padding: 20px;
@@ -166,6 +134,7 @@ a {
   display: block;
   margin: 0 auto 10px; /* Center the image within its container and add some space below */
 }
+
 
 
 

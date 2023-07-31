@@ -29,13 +29,13 @@ document.querySelector('#menu-icon').addEventListener('click', () => {
     sidebar.style.display = 'block';
 
     // Collapse the layout to make space for the sidebar
-    wrapper.classList.add('collapsed');
+    wrapper.classList.add('show-sidebar');
   } else {
     // Hide the sidebar
     sidebar.style.display = 'none';
 
     // Expand the layout to its original state
-    wrapper.classList.remove('collapsed');
+    wrapper.classList.remove('show-sidebar');
   }
 
   // Toggle the button state
