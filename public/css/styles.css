@@ -55,18 +55,18 @@ a {
 }
 
 .wrapper {
-  width: calc(100% - 300px); /* Adjust the width to fill the remaining space when the sidebar is hidden */
+  width: 100%;
   min-width: 320px;
   height: 100%;
   min-height: 100%;
   background: #fefefe;
   overflow-x: hidden; /* Hide horizontal overflow to prevent layout from shifting */
-  margin-left: 0; /* Initial margin is set to 0 */
-  transition: margin-left 0.4s ease-out; /* Add transition for smoother animation */
+  transform: translateX(0px); /* Initialize the transform to 0px */
+  transition: transform 0.4s ease-out; /* Add transition for smoother animation */
 }
 
 .wrapper.show-sidebar {
-  margin-left: 300px; /* When the sidebar is shown, create space by adding left margin */
+  transform: translateX(300px); /* Translate the wrapper to the right when the sidebar is shown */
 }
 
 .flex-row-wrap {
