@@ -72,7 +72,17 @@ a {
 .flex-row-wrap {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: flex-start; /* Change justify-content to flex-start */
+}
+
+.about-intro-box.box {
+  width: calc(100% - 600px); /* Set the width to 100% - 300px to leave space for the skills column */
+}
+
+.skills-contact-box.box {
+  width: 300px; /* Set the width to 300px */
+  margin-left: auto; /* Add auto margin to push it to the right */
+  margin-right: 300px;
 }
 
 .grid {
@@ -134,6 +144,7 @@ a {
   display: block;
   margin: 0 auto 10px; /* Center the image within its container and add some space below */
 }
+
 
 
 
