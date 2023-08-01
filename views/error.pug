@@ -1,10 +1,11 @@
-doctype html
+extends layout
 
-html(lang="en")
-    head
-        meta(charset="utf-8")
-        title Error
+block content
+  h1 Error
+  p #{error.message}
+  p Status: #{error.status}
+  if error.stack
+    pre #{error.stack}
 
-    body
-        h1 Error
-        p= error
+  //- Link back to the home page
+  a(href='/') Back to Home

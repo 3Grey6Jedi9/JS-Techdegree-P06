@@ -25,11 +25,15 @@ app.get('/project/:id', (req, res) => {
   }
 });
 
+
+
+
 app.use((req, res, next) => {
   const error = new Error('Page not found');
   error.status = 404;
   console.log(`Error: ${error.message} - Status: ${error.status}`);
-  next(error);
+  res.status(404); // Set the status code to 404 for page not found errors
+  res.render('page-not-found', { error }); // Render page-not-found.pug
 });
 
 app.use((err, req, res, next) => {
@@ -37,8 +41,13 @@ app.use((err, req, res, next) => {
   err.message = err.message || 'Internal Server Error';
   console.log(`Error: ${err.message} - Status: ${err.status}`);
   res.status(err.status);
-  res.render('error', { error: err });
+  res.render('error', { error: err }); // Render error.pug for other errors
 });
+
+
+
+
+
 
 const port = 3000;
 app.listen(port, () => {
