@@ -7,6 +7,9 @@ const wrapper = document.querySelector('.wrapper');
 const sidebar = document.getElementById('my-info');
 let headerBtnClicked = false;
 
+
+
+
 document.querySelector('#menu-icon').addEventListener('click', () => {
   if (!headerBtnClicked) {
     // Add content of the sidebar
@@ -14,7 +17,7 @@ document.querySelector('#menu-icon').addEventListener('click', () => {
       <div class="sidebar-info-box">
         <br>
         <div class="thumbnail-box">
-          <img class="thumbnail" src="https://placehold.it/550x350" alt="">
+          <img class="thumbnail" src= "/Images/‎profile_picture.‎001.jpeg" alt="A picture of myself">
         </div>
         <div class="dev-intro-box">
           <h5>Daniel Mula Tarancón</h5>
