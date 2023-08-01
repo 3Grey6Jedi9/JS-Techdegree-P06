@@ -1,10 +1,10 @@
 {
   "name": "js-techdegree-p06",
   "version": "1.0.0",
-  "description": "This is my sixth JavaScript Techdegree Project ",
-  "main": "index.pug",
+  "description": "This is my sixth JavaScript Techdegree Project",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "keywords": [
     "express"
@@ -16,3 +16,4 @@
     "pug": "^3.0.2"
   }
 }
+
