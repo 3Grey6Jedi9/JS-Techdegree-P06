@@ -20,7 +20,7 @@ document.querySelector('#menu-icon').addEventListener('click', () => {
           <img class="thumbnail" src= "/Images/‎profile_picture.‎001.jpeg" alt="A picture of myself">
         </div>
         <div class="dev-intro-box">
-          <h5>Daniel Mula Tarancón</h5>
+          <h5>About me...</h5>
           <p>I am a very mysterious person. I do many interesting things from coding to predicting the financial markets.</p>
           <p>I am so awesome because I dance like a pro.</p>
           <a href="/about">Learn More &rarr;</a>

@@ -159,8 +159,27 @@ a {
   object-fit: cover; /* Maintain aspect ratio and cover the container */
   display: block;
   margin: 0 auto 10px; /* Center the image within its container and add some space below */
+
 }
 
+
+
+
+
+
+/* Styles for the menu icon button */
+#menu-icon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: lightsteelblue;
+  border: none;
+  cursor: pointer;
+}
+
+.name {
+  margin-left: 10px; /* Adjust the value as needed to control the horizontal spacing */
+}
 
 
 
