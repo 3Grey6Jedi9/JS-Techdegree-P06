@@ -61,7 +61,7 @@ a {
   min-height: 100%;
   background: #fefefe;
   overflow-x: hidden; /* Hide horizontal overflow to prevent layout from shifting */
-  transform: translateX(0px); /* Initialize the transform to 0px */
+  transform: translateX(20px); /* Initialize the transform to 0px */
   transition: transform 0.4s ease-out; /* Add transition for smoother animation */
 }
 
@@ -181,6 +181,14 @@ a {
   margin-left: 10px; /* Adjust the value as needed to control the horizontal spacing */
 }
 
+
+
+/* Styles for the images in the project thumbnails */
+.cell img.thumbnail {
+  max-width: 100%; /* Set the maximum width to fit the container */
+  max-height: 100%; /* Set the maximum height to fit the container */
+  object-fit: contain; /* Adjust the image size while maintaining aspect ratio */
+}
 
 
 
