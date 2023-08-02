@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Handle mobile menu functionality to hide/reveal sidebar on mobile layouts
+ * Handling mobile menu functionality to hide/reveal sidebar on mobile layouts
  */
 const wrapper = document.querySelector('.wrapper');
 const sidebar = document.getElementById('my-info');
@@ -12,7 +12,7 @@ let headerBtnClicked = false;
 
 document.querySelector('#menu-icon').addEventListener('click', () => {
   if (!headerBtnClicked) {
-    // Add content of the sidebar
+    // Adding content of the sidebar
     sidebar.innerHTML = `
       <div class="sidebar-info-box">
         <br>
@@ -28,20 +28,20 @@ document.querySelector('#menu-icon').addEventListener('click', () => {
       </div>
     `;
 
-    // Display the sidebar
+    // Displaying the sidebar
     sidebar.style.display = 'block';
 
-    // Collapse the layout to make space for the sidebar
+    // Collapsing the layout to make space for the sidebar
     wrapper.classList.add('show-sidebar');
   } else {
-    // Hide the sidebar
+    // Hiding the sidebar
     sidebar.style.display = 'none';
 
-    // Expand the layout to its original state
+    // Expanding the layout to its original state
     wrapper.classList.remove('show-sidebar');
   }
 
-  // Toggle the button state
+  // Toggling the button state
   headerBtnClicked = !headerBtnClicked;
 });
 

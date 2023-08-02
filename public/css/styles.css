@@ -60,42 +60,42 @@ a {
   height: 100%;
   min-height: 100%;
   background: #fefefe;
-  overflow-x: hidden; /* Hide horizontal overflow to prevent layout from shifting */
-  transform: translateX(20px); /* Initialize the transform to 0px */
+  overflow-x: hidden; /* Hiding horizontal overflow to prevent layout from shifting */
+  transform: translateX(20px); /* Initializing the transform to 0px */
   transition: transform 0.4s ease-out; /* Add transition for smoother animation */
 }
 
 .wrapper.show-sidebar {
-  transform: translateX(300px); /* Translate the wrapper to the right when the sidebar is shown */
+  transform: translateX(300px); /* Translating the wrapper to the right when the sidebar is shown */
 }
 
 .flex-row-wrap {
   display: flex;
   flex-flow: row wrap;
-  justify-content: flex-start; /* Change justify-content to flex-start */
+  justify-content: flex-start; /* Changing justify-content to flex-start */
 }
 
 .about-intro-box.box {
-  width: calc(100% - 600px); /* Set the width to 100% - 300px to leave space for the skills column */
+  width: calc(100% - 600px); /* Setting the width to 100% - 300px to leave space for the skills column */
 }
 
 .skills-contact-box.box {
-  width: 300px; /* Set the width to 300px */
-  margin-left: auto; /* Add auto margin to push it to the right */
+  width: 300px; /* Setting the width to 300px */
+  margin-left: auto; /* Adding auto margin to push it to the right */
   margin-right: 300px;
 }
 
 .project-info-box.box {
 
-  width: calc(100% - 600px); /* Set the width to 100% - 300px to leave space for the skills column */
+  width: calc(100% - 600px); /* Setting the width to 100% - 300px to leave space for the skills column */
 
 
 }
 
 .project-tech-links-box.box {
 
-  width: 300px; /* Set the width to 300px */
-  margin-left: auto; /* Add auto margin to push it to the right */
+  width: 300px; /* Setting the width to 300px */
+  margin-left: auto; /* Adding auto margin to push it to the right */
   margin-right: 300px;
 
 }
@@ -147,8 +147,8 @@ a {
   height: 100%;
   background-color: #fefefe;
   z-index: 999; /* Adjusted z-index to ensure the sidebar is below the body content */
-  display: none; /* Hide the sidebar by default */
-  overflow-y: auto; /* Add vertical scrollbar if the content overflows */
+  display: none; /* Hiding the sidebar by default */
+  overflow-y: auto; /* Adding vertical scrollbar if the content overflows */
   padding: 20px;
 }
 
@@ -156,9 +156,9 @@ a {
 .thumbnail-box img.thumbnail {
   width: 250px;
   height: 200px;
-  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  object-fit: cover; /* Maintaining aspect ratio and cover the container */
   display: block;
-  margin: 0 auto 10px; /* Center the image within its container and add some space below */
+  margin: 0 auto 10px; /* Centering the image within its container and add some space below */
 
 }
 
@@ -178,23 +178,23 @@ a {
 }
 
 .name {
-  margin-left: 10px; /* Adjust the value as needed to control the horizontal spacing */
+  margin-left: 10px; /* Adjusting the value as needed to control the horizontal spacing */
 }
 
 
 
 /* Styles for the images in the project thumbnails */
 .cell img.thumbnail {
-  max-width: 100%; /* Set the maximum width to fit the container */
-  max-height: 100%; /* Set the maximum height to fit the container */
-  object-fit: contain; /* Adjust the image size while maintaining aspect ratio */
+  max-width: 100%; /* Setting the maximum width to fit the container */
+  max-height: 100%; /* Setting the maximum height to fit the container */
+  object-fit: contain; /* Adjusting the image size while maintaining aspect ratio */
 }
 
 
 /* Styles for the images in the project page */
 
 .project-img-box.box {
-  width: calc(100% - 600px); /* Set the width to 100% - 300px to leave space for the project info column */
+  width: calc(100% - 600px); /* Setting the width to 100% - 300px to leave space for the project info column */
 }
 
 .project-img-box.box img.project-img {
@@ -202,9 +202,8 @@ a {
   max-width: 100%;
   height: auto;
   display: block;
-  margin: 0 auto 10px; /* Center the image within its container and add some space below */
+  margin: 0 auto 10px; /* Centering the image within its container and add some space below */
 }
-
 
 
 

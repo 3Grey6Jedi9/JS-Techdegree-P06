@@ -2,32 +2,32 @@
 
 /* Color */
 body {
-  color: #333; /* Change the text color to a custom color */
+  color: #333; /* Changing the text color to a custom color */
 }
 
 /* Background color */
 body {
-  background-color: #f9f9f9; /* Change the background color to a custom color */
+  background-color: #f9f9f9; /* Changing the background color to a custom color */
 }
 
 /* Font */
 h1 {
-  font-family: 'Arial', sans-serif; /* Change the font for h1 elements to Arial */
+  font-family: 'Arial', sans-serif; /* Changing the font for h1 elements to Arial */
 }
 
 /* Box shadow */
 .box {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow to .box elements */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding a subtle box shadow to .box elements */
 }
 
 /* Text shadow */
 h1 {
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a text shadow to h1 elements */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Adding a text shadow to h1 elements */
 }
 
 /* Transitions */
 .button {
-  transition: background-color 0.3s ease; /* Add a smooth transition for background color change on buttons */
+  transition: background-color 0.3s ease; /* Adding a smooth transition for background color change on buttons */
 }
 
 /* Animations */
@@ -37,12 +37,12 @@ h1 {
 }
 
 .fade-in {
-  animation: fadeIn 1s ease; /* Add a fade-in animation to elements with .fade-in class */
+  animation: fadeIn 1s ease; /* Adding a fade-in animation to elements with .fade-in class */
 }
 
 /* Custom logo */
 .logo {
-  background-image: url('path-to-your-logo.png'); /* Add a custom logo as a background image */
+  background-image: url('path-to-your-logo.png'); /* Adding a custom logo as a background image */
   background-size: contain;
   width: 150px;
   height: 150px;
