@@ -53,28 +53,8 @@ d) button (class)
 
 I've added transition 
 
-e) animation 
 
-This animation creates a smooth transition of opacity for elements taht will make them appear gradually from
-invisible (opacity: 0) to fully visible (opacity: 1) over a specified duration. 
-
-Getting into details: 
-
-- @keyframes fadeIn: This line defines the name of the animation, which is "fadeln."
-- 0% { opacity: 0; }: This is the starting point of the animation, at 0% progress. It sets the opacity of the element to 0, making it completely transparent.
-- 100% { opacity: 1; }: This is the end point of the animation, at 100% progress. It sets the opacity of the element to 1, making if fully visible. 
-
-
-Next, we have a separate CSS rule: 
-
-.fade-in: This is a class selector in CSS
-
-'animation: fadeIn 1s ease;': This line applies the "fadeln" animation to any element with the class "fade-in." The animation will take 
-1 second to complete and will use the "ease" timing function, which means it will start slowly, speed up in the middle and
-slow down again at the end. 
-
-
-f) logo (class) (Custom logo)
+e) logo (class) (Custom logo)
 
 This block of code is defining a CSS class called "logo" that applies styles to create a custom logo for the button. 
 
