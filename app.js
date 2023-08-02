@@ -16,6 +16,9 @@ app.set('view engine', 'pug'); // Setting the view engine to Pug. This allows Ex
 app.use(express.static(path.join(__dirname, 'public'))); // Serving static files from the 'public' directory.
 
 
+// Serve static files from the 'Images' directory
+app.use('/Images', express.static(path.join(__dirname, 'Images')));
+
 // Route for the home page. We will render the index.pug template and pass the data from the 'data.json' to the template
 app.get('/', (req, res) => {
   res.render('index', { data });
