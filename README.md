@@ -53,7 +53,7 @@ d) button (class)
 
 I've added transition 
 
-e) I've added an animation 
+e) animation 
 
 This animation creates a smooth transition of opacity for elements taht will make them appear gradually from
 invisible (opacity: 0) to fully visible (opacity: 1) over a specified duration. 
@@ -72,6 +72,15 @@ Next, we have a separate CSS rule:
 'animation: fadeIn 1s ease;': This line applies the "fadeln" animation to any element with the class "fade-in." The animation will take 
 1 second to complete and will use the "ease" timing function, which means it will start slowly, speed up in the middle and
 slow down again at the end. 
+
+
+f) logo (class) (Custom logo)
+
+This block of code is defining a CSS class called "logo" that applies styles to create a custom logo for the button. 
+
+
+
+
 
 
 

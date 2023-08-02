@@ -40,12 +40,28 @@ h1 {
   animation: fadeIn 1s ease; /* Adding a fade-in animation to elements with .fade-in class */
 }
 
-/* Custom logo */
-.logo {
-  background-image: url('path-to-your-logo.png'); /* Adding a custom logo as a background image */
+
+
+/* Adding a logo to the button */
+#menu-icon::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 30px;
+  height: 30px;
+  background-image: url('/Images/logo.png');
   background-size: contain;
-  width: 150px;
-  height: 150px;
+  background-repeat: no-repeat;
 }
+
+
+
+
+
+
+
+
+
 
 
