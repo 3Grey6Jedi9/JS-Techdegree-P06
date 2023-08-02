@@ -22,6 +22,56 @@
       "live_link": "http://localhost:63342/JS-Techdegree-P02/index.html?_ijt=ruvp788fr9p78cj7c7ddarfpni&_ij_reload=RELOAD_ON_SAVE",
       "github_link": "https://github.com/3Grey6Jedi9/JS-Techdegree-P02",
       "image_urls": ["../Images/main02.jpeg", "../Images/projectimage21.jpeg"]
+    },
+    {
+      "id": 2,
+      "project_name": "Interactive Form",
+      "description": "This is an interative form",
+      "technologies": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "live_link": "http://localhost:63342/JS-Techdegree-P02/index.html?_ijt=ruvp788fr9p78cj7c7ddarfpni&_ij_reload=RELOAD_ON_SAVE",
+      "github_link": "https://github.com/3Grey6Jedi9/JS-Techdegree-P03",
+      "image_urls": [
+        "../Images/main02.jpeg",
+        "../Images/projectimage21.jpeg"
+      ]
+    },
+
+    {
+      "id": 3,
+      "project_name": "Students Cards",
+      "description": "This app generates students cards",
+      "technologies": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "live_link": "http://localhost:63342/JS-Techdegree-P02/index.html?_ijt=ruvp788fr9p78cj7c7ddarfpni&_ij_reload=RELOAD_ON_SAVE",
+      "github_link": "https://github.com/3Grey6Jedi9/JS-Techdegree-P02",
+      "image_urls": [
+        "../Images/main02.jpeg",
+        "../Images/projectimage21.jpeg"
+      ]
+    },
+
+    {
+      "id": 4,
+      "project_name": "Students Cards",
+      "description": "This app generates students cards",
+      "technologies": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "live_link": "http://localhost:63342/JS-Techdegree-P02/index.html?_ijt=ruvp788fr9p78cj7c7ddarfpni&_ij_reload=RELOAD_ON_SAVE",
+      "github_link": "https://github.com/3Grey6Jedi9/JS-Techdegree-P02",
+      "image_urls": [
+        "../Images/main02.jpeg",
+        "../Images/projectimage21.jpeg"
+      ]
     }
   ]
 }
