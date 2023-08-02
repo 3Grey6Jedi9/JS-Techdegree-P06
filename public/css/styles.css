@@ -191,6 +191,22 @@ a {
 }
 
 
+/* Styles for the images in the project page */
+
+.project-img-box.box {
+  width: calc(100% - 600px); /* Set the width to 100% - 300px to leave space for the project info column */
+}
+
+.project-img-box.box img.project-img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px; /* Center the image within its container and add some space below */
+}
+
+
+
 
 
 
