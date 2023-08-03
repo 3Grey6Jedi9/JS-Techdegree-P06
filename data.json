@@ -5,7 +5,7 @@
       "project_name": "Random Quote",
       "description": "This application generates a random quote after a certain amount of time",
       "technologies": ["JavaScript", "HTML", "CSS"],
-      "live_link": "http://localhost:63342/JS-Techdegree-P01/index.html?_ijt=dmjubmetumr13rrfke5hvcsgpb&_ij_reload=RELOAD_ON_SAVE",
+      "live_link": "https://3grey6jedi9.github.io/JS-Techdegree-P01/",
       "github_link": "https://github.com/3Grey6Jedi9/JS-Techdegree-P01",
       "image_urls": [
         "../Images/main01.jpeg",
@@ -19,7 +19,7 @@
       "project_name": "Students Cards",
       "description": "This app generates students cards",
       "technologies": ["JavaScript", "HTML", "CSS"],
-      "live_link": "http://localhost:63342/JS-Techdegree-P02/index.html?_ijt=ruvp788fr9p78cj7c7ddarfpni&_ij_reload=RELOAD_ON_SAVE",
+      "live_link": "https://3grey6jedi9.github.io/JS-Techdegree-P02/",
       "github_link": "https://github.com/3Grey6Jedi9/JS-Techdegree-P02",
       "image_urls": ["../Images/main02.jpeg", "../Images/projectimage21.jpeg"]
     },
@@ -32,7 +32,7 @@
         "HTML",
         "CSS"
       ],
-      "live_link": "http://localhost:63342/JS-Techdegree-P03/index.html?_ijt=f10718gtqmlk29hl97ovodnoij&_ij_reload=RELOAD_ON_SAVE",
+      "live_link": "https://3grey6jedi9.github.io/JS-Techdegree-P03/",
       "github_link": "https://github.com/3Grey6Jedi9/JS-Techdegree-P03",
       "image_urls": [
         "../Images/\u200EInteractiveForm\u200E001.jpeg",
@@ -49,7 +49,7 @@
         "HTML",
         "CSS"
       ],
-      "live_link": "http://localhost:63342/JS-Techdegree-P04/index.html?_ijt=b157nqu21ud04379tf89120ol5&_ij_reload=RELOAD_ON_SAVE",
+      "live_link": "\nhttps://3grey6jedi9.github.io/JS-Techdegree-P04/",
       "github_link": "https://github.com/3Grey6Jedi9/Python-Techdegree-Project-04",
       "image_urls": [
         "../Images/\u200EPhraseHuntermain\u200E001.jpeg",
@@ -66,7 +66,7 @@
         "HTML",
         "CSS"
       ],
-      "live_link": "http://localhost:63342/JS-Techdegree-P05/index.html?_ijt=n23ctfq11ndjgbtebjlggn91f4&_ij_reload=RELOAD_ON_SAVE",
+      "live_link": "https://3grey6jedi9.github.io/JS-Techdegree-P05/",
       "github_link": "https://github.com/3Grey6Jedi9/Python-Techdegree-Project-05",
       "image_urls": [
         "../Images/\u200EEmployeeDirectorymain.\u200E001.jpeg",
