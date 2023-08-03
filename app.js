@@ -72,7 +72,7 @@ app.use((err, req, res, next) => {
 
 
 // Defining the port number on which the server will listen for incoming requests.
-const port = 3000;
+const port = 3001;
 app.listen(port, () => {
   console.log(`Server started on port ${port}`);
 });
