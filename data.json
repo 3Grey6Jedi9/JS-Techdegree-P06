@@ -32,28 +32,28 @@
         "HTML",
         "CSS"
       ],
-      "live_link": "http://localhost:63342/JS-Techdegree-P02/index.html?_ijt=ruvp788fr9p78cj7c7ddarfpni&_ij_reload=RELOAD_ON_SAVE",
+      "live_link": "http://localhost:63342/JS-Techdegree-P03/index.html?_ijt=f10718gtqmlk29hl97ovodnoij&_ij_reload=RELOAD_ON_SAVE",
       "github_link": "https://github.com/3Grey6Jedi9/JS-Techdegree-P03",
       "image_urls": [
-        "../Images/main02.jpeg",
-        "../Images/projectimage21.jpeg"
+        "../Images/\u200EInteractive Form.\u200E001.jpeg",
+        "../Images/\u200EInteractiveForm02 .\u200E001.jpeg"
       ]
     },
 
     {
       "id": 3,
-      "project_name": "Students Cards",
-      "description": "This app generates students cards",
+      "project_name": "Phrase Hunter",
+      "description": "This app that recreates that famous game where you need to guess a phrase letter by letter",
       "technologies": [
         "JavaScript",
         "HTML",
         "CSS"
       ],
-      "live_link": "http://localhost:63342/JS-Techdegree-P02/index.html?_ijt=ruvp788fr9p78cj7c7ddarfpni&_ij_reload=RELOAD_ON_SAVE",
-      "github_link": "https://github.com/3Grey6Jedi9/JS-Techdegree-P02",
+      "live_link": "http://localhost:63342/JS-Techdegree-P04/index.html?_ijt=b157nqu21ud04379tf89120ol5&_ij_reload=RELOAD_ON_SAVE",
+      "github_link": "https://github.com/3Grey6Jedi9/Python-Techdegree-Project-04",
       "image_urls": [
-        "../Images/main02.jpeg",
-        "../Images/projectimage21.jpeg"
+        "../Images/\u200EPhraseHuntermain.\u200E001.jpeg",
+        "../Images/\u200EPhraseHunter02.\u200E001.jpeg"
       ]
     },
 
