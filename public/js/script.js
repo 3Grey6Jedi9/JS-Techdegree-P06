@@ -23,7 +23,7 @@ document.querySelector('#menu-icon').addEventListener('click', () => {
           <h5>About me...</h5>
           <p>I am a very mysterious person. I do many interesting things from coding to predicting the financial markets.</p>
           <p>I am so awesome because I dance like a pro.</p>
-          <a href="/about">Learn More &rarr;</a>
+          <a href="/about">LEARN MORE &rarr;</a>
         </div>
       </div>
     `;

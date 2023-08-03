@@ -145,12 +145,14 @@ a {
   left: 0;
   width: 300px;
   height: 100%;
-  background-color: #fefefe;
-  z-index: 999; /* Adjusted z-index to ensure the sidebar is below the body content */
-  display: none; /* Hiding the sidebar by default */
-  overflow-y: auto; /* Adding vertical scrollbar if the content overflows */
+  background-color: black; /* Changing the background color to black */
+  color: white; /* Changing the text color to white */
+  z-index: 999;
+  display: none;
+  overflow-y: auto;
   padding: 20px;
 }
+
 
 /* Styles for the picture in the sidebar */
 .thumbnail-box img.thumbnail {
@@ -204,6 +206,22 @@ a {
   display: block;
   margin: 0 auto 10px; /* Centering the image within its container and add some space below */
 }
+
+
+
+/* Styles for the btn-link class */
+.btn-link {
+  display: inline-block;
+  width: 200px;
+  height: 30px;
+  background-color: black;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px; /* Adding some spacing between the links */
+}
+
 
 
 
