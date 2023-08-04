@@ -94,9 +94,10 @@ a {
 
 .project-tech-links-box.box {
 
-  width: 300px; /* Setting the width to 300px */
+  width: 290px; /* Setting the width to 300px */
   margin-left: auto; /* Adding auto margin to push it to the right */
-  margin-right: 300px;
+  margin-right: 310px;
+
 
 }
 
@@ -196,7 +197,7 @@ a {
 /* Styles for the images in the project page */
 
 .project-img-box.box {
-  width: calc(100% - 600px); /* Setting the width to 100% - 300px to leave space for the project info column */
+  width: 100%; /* Setting the width to 100% - 300px to leave space for the project info column */
 }
 
 .project-img-box.box img.project-img {
@@ -209,10 +210,11 @@ a {
 
 
 
+
 /* Styles for the btn-link class */
 .btn-link {
   display: inline-block;
-  width: 200px;
+  width: 230px;
   height: 30px;
   background-color: black;
   text-align: center;
@@ -223,7 +225,18 @@ a {
 }
 
 
+article.portfolio-intro {
+  margin-left: 50px; /* Add left margin of 50px */
 
+}
+
+
+
+
+
+.project-tech-links-box.box ul li {
+  list-style-type: disc; /* Set the list style for li elements */
+}
 
 
 
